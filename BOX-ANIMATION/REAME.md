@@ -46,4 +46,4 @@ gsap.to("#box", {
 
 ## 📸 Project Screenshot
 
-![GSAP Animation Preview](img.png)
+![GSAP Animation Preview](./img.png)
