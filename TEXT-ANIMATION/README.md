@@ -22,7 +22,7 @@ gsap.from("h1", {
 });
 
 
-# ✨ Text Animation with GSAP
+## ✨ Text Animation with GSAP
 
 This project is a part of my ongoing GSAP learning journey. In this practice, I animated text using `gsap.from()` to make heading elements appear smoothly with cool effects.
 
@@ -30,13 +30,16 @@ This project is a part of my ongoing GSAP learning journey. In this practice, I 
 
 ## 🔍 Explanation of Each GSAP Property
 
-| Property       | Description                                                                 |
-|----------------|-----------------------------------------------------------------------------|
-| `opacity: 0`   | Starts the text completely transparent                                      |
-| `duration: 1`  | Animation lasts for 1 second                                                |
-| `y: 30`        | The element starts 30px lower than its actual position and moves up        |
-| `delay: 1`     | Animation begins after a 1-second delay                                     |
-| `stagger: 0.5` | When multiple elements match the selector, they animate one after another with a 0.5s gap between them |
+| Property       | Description                                                                                     |
+| -------------- | ----------------------------------------------------------------------------------------------- |
+| `opacity: 0`   | Starts the text completely transparent                                                          |
+| `duration: 1`  | Animation lasts for 1 second                                                                     |
+| `y: 30`        | The element starts 30px lower than its actual position and moves up                              |
+| `delay: 1`     | Animation begins after a 1-second delay                                                         |
+| `stagger: 0.5` | When multiple elements match the selector, they animate one after another with a 0.5s gap delay |
+
+👉 The `gsap.from()` method tells GSAP to animate elements **from** these initial states **to** their default natural state on the DOM.
+
 
 👉 The `gsap.from()` method tells GSAP to animate elements **from** these initial states **to** their default natural state on the DOM.
 
