@@ -73,24 +73,20 @@ project-folder/
 
 ```css
 #nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px;
-}
+  font-size: 30px;
+    font-weight: 800;
+    cursor: pointer;}
 
 #full {
-  position: fixed;
-  top: 0;
-  right: -100%;
-  width: 100%;
-  height: 100vh;
-  background: black;
-  color: white;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+   height: 100%;
+    width: 20%;
+    padding: 100px 60px;
+    background-color: rgba(62, 59, 59, 0.235);
+    position: absolute;
+    top: 0;
+    right: -20%;
+    -webkit-backdrop-filter:blur(10px);
+    backdrop-filter: blur(15px);
 }
 ```
 
@@ -172,7 +168,7 @@ CDNs used:
 Created with 🎨 and 💻 by **Yukti Sahu**
 
 📸 [X – yuktisahu](https://x.com/YuktiSahu234)
-👥 [GitHub – your-username](https://github.com/yukti-says)
+👥 [GitHub – yukti-says](https://github.com/yukti-says)
 
 ---
 
