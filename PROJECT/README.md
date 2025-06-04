@@ -26,7 +26,7 @@ From simple box transitions to layered, scroll-triggered animations, here are th
 ## 📁 File Structure
 
 ```
-positivus-clone/
+project/
 │
 ├── index.html            # Main page
 ├── style.css             # Stylesheet
@@ -76,6 +76,14 @@ tl4.from(".all p", { x: -60, opacity: 0 });
 ```
 
 ---
+
+## Preview
+
+![Logo](image.png)
+
+---
+
+
 
 ## ✍️ My Learning Journey
 
